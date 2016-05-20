@@ -16,6 +16,8 @@ class List: NSManagedObject {
     class func sendTestData() {
      //   var myRootRef = Firebase(url:"https://brilliant-inferno-2697.firebaseio.com")
       
+        
+        // new change
       //  myRootRef.setValue("Do you have data? You'll love Firebase.")
     }
     
