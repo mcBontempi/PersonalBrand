@@ -17,6 +17,15 @@
 		D6274D5C1CE638C800462A7C /* PersonalBrandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6274D5B1CE638C800462A7C /* PersonalBrandUITests.swift */; };
 		D6274D681CEA111E00462A7C /* List+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6274D661CEA111E00462A7C /* List+CoreDataProperties.swift */; };
 		D6274D691CEA111E00462A7C /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6274D671CEA111E00462A7C /* List.swift */; };
+		D6CB503E1CEF5A24007CE241 /* PersonalBrand.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6274D4A1CE638C800462A7C /* PersonalBrand.xcdatamodeld */; };
+		D6CB503F1CEF5A24007CE241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6274D451CE638C800462A7C /* ViewController.swift */; };
+		D6CB50401CEF5A24007CE241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6274D431CE638C800462A7C /* AppDelegate.swift */; };
+		D6CB50411CEF5A24007CE241 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6274D671CEA111E00462A7C /* List.swift */; };
+		D6CB50421CEF5A24007CE241 /* List+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6274D661CEA111E00462A7C /* List+CoreDataProperties.swift */; };
+		D6CB50441CEF5A24007CE241 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E42CF97F58AAC44B70B881A /* libPods.a */; };
+		D6CB50461CEF5A24007CE241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6274D4F1CE638C800462A7C /* LaunchScreen.storyboard */; };
+		D6CB50471CEF5A24007CE241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6274D4D1CE638C800462A7C /* Assets.xcassets */; };
+		D6CB50481CEF5A24007CE241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6274D471CE638C800462A7C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +55,8 @@
 		D6274D5D1CE638C800462A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6274D661CEA111E00462A7C /* List+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "List+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D6274D671CEA111E00462A7C /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		D6CB504E1CEF5A24007CE241 /* PersonalBrand2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalBrand2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB504F1CEF5A24007CE241 /* PersonalBrand copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PersonalBrand copy-Info.plist"; path = "/Users/mcbontempi/Google Drive/Code/DDT/PersonalBrand/PersonalBrand/PersonalBrand copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +72,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB50431CEF5A24007CE241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB50441CEF5A24007CE241 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,7 @@
 				D6274D411CE638C800462A7C /* Products */,
 				E9ED686086D04FD1FDFFC2FA /* Pods */,
 				AD1F313CC5642A7DCB6DF513 /* Frameworks */,
+				D6CB504F1CEF5A24007CE241 /* PersonalBrand copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +111,7 @@
 			children = (
 				D6274D401CE638C800462A7C /* PersonalBrand.app */,
 				D6274D571CE638C800462A7C /* PersonalBrandUITests.xctest */,
+				D6CB504E1CEF5A24007CE241 /* PersonalBrand2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +191,26 @@
 			productReference = D6274D571CE638C800462A7C /* PersonalBrandUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D6CB503B1CEF5A24007CE241 /* PersonalBrand2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB504B1CEF5A24007CE241 /* Build configuration list for PBXNativeTarget "PersonalBrand2" */;
+			buildPhases = (
+				D6CB503C1CEF5A24007CE241 /* Check Pods Manifest.lock */,
+				D6CB503D1CEF5A24007CE241 /* Sources */,
+				D6CB50431CEF5A24007CE241 /* Frameworks */,
+				D6CB50451CEF5A24007CE241 /* Resources */,
+				D6CB50491CEF5A24007CE241 /* Embed Pods Frameworks */,
+				D6CB504A1CEF5A24007CE241 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalBrand2;
+			productName = PersonalBrand;
+			productReference = D6CB504E1CEF5A24007CE241 /* PersonalBrand2.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +245,7 @@
 			targets = (
 				D6274D3F1CE638C800462A7C /* PersonalBrand */,
 				D6274D561CE638C800462A7C /* PersonalBrandUITests */,
+				D6CB503B1CEF5A24007CE241 /* PersonalBrand2 */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +265,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB50451CEF5A24007CE241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB50461CEF5A24007CE241 /* LaunchScreen.storyboard in Resources */,
+				D6CB50471CEF5A24007CE241 /* Assets.xcassets in Resources */,
+				D6CB50481CEF5A24007CE241 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +326,51 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		D6CB503C1CEF5A24007CE241 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CB50491CEF5A24007CE241 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CB504A1CEF5A24007CE241 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -294,6 +391,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6274D5C1CE638C800462A7C /* PersonalBrandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB503D1CEF5A24007CE241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB503E1CEF5A24007CE241 /* PersonalBrand.xcdatamodeld in Sources */,
+				D6CB503F1CEF5A24007CE241 /* ViewController.swift in Sources */,
+				D6CB50401CEF5A24007CE241 /* AppDelegate.swift in Sources */,
+				D6CB50411CEF5A24007CE241 /* List.swift in Sources */,
+				D6CB50421CEF5A24007CE241 /* List+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +565,30 @@
 			};
 			name = Release;
 		};
+		D6CB504C1CEF5A24007CE241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDB45EF83FD7B76E2A48D98 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PersonalBrand copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DDT.PersonalBrand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6CB504D1CEF5A24007CE241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039535D7E3E0763E9DD84AB1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PersonalBrand copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DDT.PersonalBrand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -482,6 +615,15 @@
 			buildConfigurations = (
 				D6274D641CE638C800462A7C /* Debug */,
 				D6274D651CE638C800462A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB504B1CEF5A24007CE241 /* Build configuration list for PBXNativeTarget "PersonalBrand2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB504C1CEF5A24007CE241 /* Debug */,
+				D6CB504D1CEF5A24007CE241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
